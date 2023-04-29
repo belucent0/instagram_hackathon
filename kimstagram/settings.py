@@ -15,7 +15,7 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 ROOT_DIR = os.path.dirname(BASE_DIR)
-SECRETS_PATH = os.path.join(ROOT_DIR, 'secrets.json')
+SECRETS_PATH = os.path.join(ROOT_DIR, 'kimstagram/secrets.json')
 
 
 # Quick-start development settings - unsuitable for production
