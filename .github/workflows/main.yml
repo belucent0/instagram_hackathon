@@ -33,7 +33,7 @@ jobs:
         echo "SECRET_KEY=${{ secrets.SECRET_KEY }}" >> $GITHUB_ENV
     - name: Compress Django project
       run: |
-        zip -r ${{ github.sha }}.zip <your_django_project_folder>
+        zip -r ${{ github.sha }}.zip kimstagram
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
